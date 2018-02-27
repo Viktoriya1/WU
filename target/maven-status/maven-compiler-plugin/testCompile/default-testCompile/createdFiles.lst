@@ -1,0 +1,9 @@
+testLogger/LogToFile.class
+testLogger/Logger.class
+testLogger/TestLogger.class
+testLogger/ConsoleLogger.class
+testLogger/AbstractLogger.class
+selenium.class
+QatarLoginPageTest.class
+BahrainLoginPageTest.class
+testLogger/LoggerTest.class

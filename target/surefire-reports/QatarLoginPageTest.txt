@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: QatarLoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 157.817 sec <<< FAILURE! - in QatarLoginPageTest
+signIn(QatarLoginPageTest)  Time elapsed: 157.816 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Tereshchenkos-MacBook-Pro.local', ip: 'fe80:0:0:0:1cfe:1b1a:f5d8:a498%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.4'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/tereshchenkoviktoriia/Library/Developer/Xcode/DerivedData/WesternUnion-hcvdbaublvobsqcpsiatjuynodvq/Build/Products/Debug-iphonesimulator/WesternUnion_PI.app, networkConnectionEnabled=false, databaseEnabled=false, deviceName=iphone 6, platform=MAC, showXcodeLog=true, platformVersion=11.0, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, udid=C8CC2FE5-4D18-4AD1-AA8B-646CB1CAC171, autoAcceptAlerts=true}]
+Session ID: 1af73633-d3b2-456e-a9f2-90af01b63324
+*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name="You've securely logged in"]}
+	at QatarLoginPageTest.signIn(QatarLoginPageTest.java:73)
+
